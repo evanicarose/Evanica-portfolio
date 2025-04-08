@@ -1,0 +1,12 @@
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #d16ba5;    /* soft pink-purple */
+  --color-secondary: #aa5d9d;  /* deeper pink */
+  --color-dark: #4a1942;       /* dark plum */
+  --color-bg: #2a0a26;         /* very dark pinkish background */
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+

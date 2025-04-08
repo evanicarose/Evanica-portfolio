@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Meow Beans",
+    "imageSrc": "projects/meowbeans.png",
+    "description": "This project talks about the history of coffee beans.",
+    "skills": ["HTML", "JavaScript", "CSS"],
+    "demo": "https://evanicarose.github.io/JuarbalCS2240Web/",
+    "source": "https://github.com/evanicarose/JuarbalCS2240Web.git"
+  },
+  {
+    "title": "Employee Management System",
+    "imageSrc": "projects/employeeDatabase.png",
+    "description": "This is a simple employee database system",
+    "skills": ["Python", "HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/evanicarose/EmployeeManagement"
+  },
+  {
+    "title": "Kapitan Sisig POS and Inventory System",
+    "imageSrc": "projects/kapitanSisig.png",
+    "description": "This is a POS and inventory system.",
+    "skills": ["PHP", "HTML", "JavaScript"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/evanicarose/KP-POS"
+  }
+]
