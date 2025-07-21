@@ -22,5 +22,14 @@
     "skills": ["PHP", "HTML", "JavaScript"],
     "demo": "https://drive.google.com/file/d/1XoOTqeN9_m--GT_Uyc_0bk0xdMvPzvrC/view?usp=sharing",
     "source": "https://github.com/evanicarose/KP-POS"
+  },
+   {
+    "title": "ManPro Application",
+    "imageSrc": "projects/manpro.png",
+    "description": "Smart performance evaluation system for employees.",
+    "skills": ["PHP Laravel", "React"],
+    "demo": "https://drive.google.com/file/d/1H9vR2U8gdG5fa-VRdgIFgKt3Np5uOmGt/view?usp=sharing",
+    "source": ""
   }
+
 ]
