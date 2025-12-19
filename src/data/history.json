@@ -5,5 +5,19 @@
     "startDate": "February, 2025",
     "endDate": "Present",
     "imageSrc": "history/sysdev.jpg"
+  },
+  {
+    "role": "Front-end Developer and QA Specialist (SAMAHAN Website)",
+    "organisation": "Samahan SysDev",
+    "startDate": "March, 2025",
+    "endDate": "Present",
+    "imageSrc": "history/sysdev.jpg"
+  },
+  {
+    "role": "Full-Stack Developer (HRMS System)",
+    "organisation": "Infinity Hub",
+    "startDate": "June, 2025",
+    "endDate": "July, 2025",
+    "imageSrc": "history/manpro.jpeg"
   }
 ]

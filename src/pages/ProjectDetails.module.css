@@ -1,0 +1,375 @@
+@import "../vars.css";
+
+.container {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 24px;
+  color: var(--color-text);
+  min-height: calc(100vh - 160px);
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 32px;
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-primary);
+  border-radius: 100px;
+  padding: 10px 24px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.backLink:hover {
+  background: var(--color-secondary);
+  transform: translateX(-4px);
+}
+
+.header {
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 16px 14px 0 #04152d;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: var(--color-text);
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 8px 0 0 0;
+  list-style: none;
+}
+
+.skill {
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 8px 20px;
+  border: 1px solid rgba(209, 107, 165, 0.3);
+}
+
+.links {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 18px;
+  background: var(--color-primary);
+  border-radius: 100px;
+  padding: 12px 28px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background: var(--color-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(209, 107, 165, 0.3);
+}
+
+@media (max-width: 800px) {
+  .header {
+    grid-template-columns: 1fr;
+    padding: 32px 24px;
+    gap: 32px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .skill {
+    font-size: 16px;
+  }
+}
+
+/* Details section */
+.details {
+  margin-top: 32px;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 36px 48px;
+  color: var(--color-text);
+}
+
+.section + .section {
+  margin-top: 24px;
+}
+
+.sectionTitle {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.sectionBody {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/* Gallery section */
+.gallery {
+  margin-top: 32px;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 36px 48px;
+  color: var(--color-text);
+}
+
+.galleryTitle {
+  margin: 0 0 24px 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-text);
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+
+.carouselBtn {
+  background: var(--color-primary);
+  border: none;
+  color: var(--color-text);
+  font-size: 48px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+  line-height: 1;
+  padding: 0;
+}
+
+.carouselBtn:hover {
+  background: var(--color-secondary);
+  transform: scale(1.1);
+}
+
+.carouselContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.carouselImage {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.carouselImage:hover {
+  transform: scale(1.02);
+}
+
+.carouselCaption {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  max-width: 600px;
+}
+
+.carouselIndicators {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.indicator:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.indicatorActive {
+  background: var(--color-primary);
+  width: 12px;
+  height: 12px;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.lightboxImage {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 10px;
+  cursor: default;
+}
+
+.lightboxBtn {
+  position: absolute;
+  background: var(--color-primary);
+  border: none;
+  color: var(--color-text);
+  font-size: 64px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  line-height: 1;
+  padding: 0;
+}
+
+.lightboxBtn:first-of-type {
+  left: 32px;
+}
+
+.lightboxBtn:last-of-type {
+  right: 32px;
+}
+
+.lightboxBtn:hover {
+  background: var(--color-secondary);
+  transform: scale(1.1);
+}
+
+.lightboxClose {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: var(--color-primary);
+  border: none;
+  color: var(--color-text);
+  font-size: 48px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  line-height: 1;
+  padding: 0;
+}
+
+.lightboxClose:hover {
+  background: var(--color-secondary);
+  transform: rotate(90deg);
+}
+
+@media (max-width: 800px) {
+  .carousel {
+    flex-direction: column;
+  }
+
+  .carouselBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+  }
+
+  .gallery {
+    padding: 24px 16px;
+  }
+
+  .lightboxBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 48px;
+  }
+
+  .lightboxBtn:first-of-type {
+    left: 16px;
+  }
+
+  .lightboxBtn:last-of-type {
+    right: 16px;
+  }
+
+  .lightboxClose {
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+  }
+}

@@ -1,34 +1,124 @@
 [
   {
-    "title": "Meow Beans",
-    "imageSrc": "projects/meowbeans.png",
-    "description": "This project talks about the history of coffee beans.",
-    "skills": ["HTML", "JavaScript", "CSS"],
-    "demo": "https://evanicarose.github.io/JuarbalCS2240Web/",
-    "source": "https://github.com/evanicarose/JuarbalCS2240Web.git"
+    "title": "Talikala Inc. Donation Drive System ",
+    "imageSrc": "projects/talikala.png",
+    "description": "The Talikala Inc. Donation Drive System is a cloud-based web application developed to manage donation campaigns and donor information using a scalable serverless architecture.",
+    "skills": ["Node.js", "AWS Lambda", "DynamoDB", "HTML", "CSS", "JavaScript", "React", "API Gateway", "S3", "Cognito", "CloudFormation", "SNS", "SES", "CloudWatch", "IAM", "Cloud Computing", "pip3"],
+    "details": {
+      "overview": "This system enables organizations to efficiently manage donation drives through a web interface supported by cloud-native services. By leveraging serverless technologies, the application is designed to handle varying levels of traffic while maintaining performance, reliability, and availability.",
+      "tech": "The application is built using Node.js for backend logic and integrates AWS Lambda to execute serverless functions in response to application events. Data is stored in Amazon DynamoDB to ensure fast and highly available access to donor and campaign records. Amazon API Gateway is used to expose secure RESTful APIs, while Amazon S3 hosts static frontend assets. User authentication and access control are handled through Amazon Cognito, with AWS CloudFormation used to automate infrastructure deployment. Amazon SNS and SES manage notifications and email communications, and Amazon CloudWatch provides logging and performance monitoring. The frontend is developed using React, along with HTML, CSS, and JavaScript, to deliver a responsive and interactive user experience.",
+      "purpose": "The purpose of the system is to provide a secure, cost-efficient, and scalable platform for nonprofit organizations to manage donation activities, communicate with donors, and monitor campaign performance without the overhead of maintaining traditional server infrastructure."
+    },
+    "gallery": [
+      {
+        "src": "projects/talikala_dashboard.png",
+        "caption": "Talikala Inc. Donation Drive System Dashboard showing donation statistics and recent activity."
+      },
+      {
+        "src": "projects/talikala_campaigns.png",
+        "caption": "Campaign Management interface for creating and tracking donation campaigns. AWS included: Lambda, DynamoDB, S3, API Gateway, PayMongo, Cognito."
+      },
+      {
+        "src": "projects/talikala_donors.png",
+        "caption": "Donor Management interface for tracking donor information and donation history. AWS included: Lambda, DynamoDB, Cognito."
+      },
+      {
+        "src": "projects/talikala_transactions.png",
+        "caption": "Transaction Management interface for monitoring donation transactions and payment statuses. AWS included: Lambda, DynamoDB, Cognito, PayMongo, SNS."
+      }
+    ],
+    "demoPublic": false,
+    "sourcePublic": false,
+    "demo": "https://www.example.com",
+    "source": "https://github.com/evanicarose/KP-POS"
   },
   {
-    "title": "Employee Management System",
-    "imageSrc": "projects/employeeDatabase.png",
-    "description": "This is a simple employee database system",
-    "skills": ["Python", "HTML", "CSS"],
-    "demo": "https://drive.google.com/file/d/1cS_Mce_fc-dx_pKBp5zeLwPjjKa9fFea/view?usp=sharing",
-    "source": "https://github.com/evanicarose/EmployeeManagement"
+    "title": "ManPro Application HRMS System",
+    "imageSrc": "projects/manpro.png",
+    "description": "A web-based Human Resource Management System (HRMS) designed to streamline employee management, attendance tracking, and administrative workflows through a centralized platform.",
+    "skills": ["PHP/Laravel", "HTML", "CSS", "React"],
+    "details": {
+      "overview": "ManPro is a full-stack HRMS application that allows organizations to efficiently manage employee records and HR-related processes. It provides a structured system for handling personnel data while offering a responsive and user-friendly interface for administrators and staff.",
+      "tech": "The system is built using PHP with the Laravel framework to handle server-side logic, authentication, and database operations following the MVC architecture. React is used on the frontend to create dynamic, reusable components that enhance user interaction and responsiveness. HTML and CSS provide the foundational structure and styling of the interface, ensuring consistency and usability across the application. This combination allows for a scalable, secure, and maintainable HR management system.",
+      "purpose": "The system aims to reduce manual HR processes by automating employee data management, improving accuracy, accessibility, and overall operational efficiency within an organization."
+    },
+    "gallery": [
+      {
+        "src": "projects/manpro_create.png",
+        "caption": "Create Employee Performance Evaluation form."
+      },
+      {
+        "src": "projects/manpro_form.png",
+        "caption": "Performance Evaluation Structure/Form for employees."
+      },
+      {
+        "src": "projects/manpro_evaluate.png",
+        "caption": "Evaluated Employee Performance Evaluation form with signature"
+      },{
+        "src": "projects/manpro_result.png",
+        "caption": "Performance Evaluation results for employees. With graphical representation."
+      }
+    ],
+    "demoPublic": true,
+    "sourcePublic": false,
+    "demo": "https://drive.google.com/file/d/1H9vR2U8gdG5fa-VRdgIFgKt3Np5uOmGt/view?usp=sharing",
+    "source": "https://github.com/evanicarose/KP-POS"
   },
   {
     "title": "Kapitan Sisig POS and Inventory System",
     "imageSrc": "projects/kapitanSisig.png",
     "description": "This is a POS and inventory system.",
     "skills": ["PHP", "HTML", "JavaScript"],
-    "demo": "https://drive.google.com/file/d/1XoOTqeN9_m--GT_Uyc_0bk0xdMvPzvrC/view?usp=sharing",
+    "details": {
+      "overview": "A point-of-sale and inventory web app that records orders, tracks stock, and generates basic reports.",
+      "tech": "PHP handles server-side logic and persistence, with HTML/JavaScript for responsive UI. This combination was chosen for straightforward deployment on common hosting and quick data-driven pages.",
+      "purpose": "Provides a simple, reliable workflow for a small food business to manage daily sales and inventory levels."
+    },
+    "gallery": [
+      {
+        "src": "projects/kapitanSisig.png",
+        "caption": "POS interface for processing orders and transactions"
+      },
+      {
+        "src": "projects/kapitanSisig.png",
+        "caption": "Inventory management dashboard tracking stock levels"
+      }
+    ],
+    "demoPublic": true,
+    "sourcePublic": false,
+    "demo": "https://drive.google.com/file/d/1XoOTqeN9_m--GT_Uyc_0bk0xdMvPzvrC/view",
     "source": "https://github.com/evanicarose/KP-POS"
   },
-   {
-    "title": "ManPro Application",
-    "imageSrc": "projects/manpro.png",
-    "description": "Smart performance evaluation system for employees.",
-    "skills": ["PHP Laravel", "React"],
-    "demo": "https://drive.google.com/file/d/1H9vR2U8gdG5fa-VRdgIFgKt3Np5uOmGt/view?usp=sharing",
-    "source": ""
+  
+  {
+    "title": "Employee Management System",
+    "imageSrc": "projects/employeeDatabase.png",
+    "description": "This is a simple employee database system",
+    "skills": ["Python", "HTML", "CSS"],
+    "details": {
+      "overview": "A CRUD-style employee directory to add, edit, and list employees with simple search and validation.",
+      "tech": "Python powers the core logic and data handling. HTML and CSS provide clean forms and tables. The stack favors clarity and quick iteration, ideal for small internal tools.",
+      "purpose": "Built to practice backend basics and form handling, while delivering a practical tool for tracking employee information."
+    },
+    "demoPublic": true,
+    "sourcePublic": false,
+    "demo": "https://drive.google.com/file/d/1cS_Mce_fc-dx_pKBp5zeLwPjjKa9fFea/view",
+    "source": "https://github.com/evanicarose/EmployeeManagement"
+  },
+  {
+    "title": "Meow Beans",
+    "imageSrc": "projects/meowbeans.png",
+    "description": "This project talks about the history of coffee beans.",
+    "skills": ["HTML", "JavaScript", "CSS"],
+    "details": {
+      "overview": "A single-page informational site that explores coffee beans, their history, and fun facts with smooth sections and imagery.",
+      "tech": "Built with semantic HTML for accessibility, modern CSS for layout and theming, and vanilla JavaScript for interactive navigation and small UI enhancements. The stack was chosen to keep the site lightweight and fast, avoiding unnecessary frameworks.",
+      "purpose": "Created as a learning and showcase piece to demonstrate strong fundamentals in structure, styling, and interactivity while telling a cohesive story about a topic I enjoy."
+    },
+    "demoPublic": true,
+    "sourcePublic": false,
+    "demo": "https://evanicarose.github.io/JuarbalCS2240Web/",
+    "source": "https://github.com/evanicarose/JuarbalCS2240Web.git"
   }
+  
 ]
